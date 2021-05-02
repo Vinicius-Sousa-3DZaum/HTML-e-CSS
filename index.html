@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML e CSS</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="shortcut icon" href="assets/img/3dzaum-foto.ico">
+    </head>
+    
+    <body>
+        
+        
+
+        <input type="checkbox" id="ativar-dark"  class="ativar-dark">
+        <div class="dark-mode">
+            <!-- CABEÇALHO -->
+            <header>
+                
+                <div class="container">
+                    <label for="ativar-dark">
+                        <span></span>
+                    </label>
+                    <div class="linha">
+
+                        <!-- CAIXA FOTO DE PERFÍL -->
+                        <div class="coluna coluna-esquerda">
+                            <figure>
+                                <img src="./assets/img/html5.png" alt="Html 5">
+                                <figcaption class="hidden">HTML</figcaption>
+                            </figure>
+                        </div>
+
+                        <!-- INFORMAÇÕES PESSOAIS -->
+                        <div class="coluna coluna-direita">
+
+                            <h1>O que eu sei de HTML e CSS</h1>
+                            <p>Os códigos que aprendi</p>
+
+                            <ul>
+                                <li>
+                                    <p>Créditos</p>
+                                </li>
+                                <li>
+                                    <p>Site refeito do curso da Kenzie Academy</p>
+                                </li>
+                                <li>
+                                    <p>Imagens pegas da internet</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+            <main>
+                
+                <div class="container">
+
+                    <div class="linha">
+
+                        <!-- CONTEÚDO LADO ESQUERDO -->
+                        <div class="coluna coluna-esquerda">
+                        
+                            <section>
+                                <span class="topo-direita"></span>
+                                <h2>Comandos do HTML de texto</h2>
+                                <ul>
+                                    <li><b>h1 a h6</b> que serve para título a partir do h1, subtítulo h2...</li>
+                                    <li><b>p</b> para parágrafo,</li>
+                                    <li><b>strong</b> para definir um parágrafo importante e deixá-lo em negrito</li>
+                                    <li><b>b</b> para texto em negrito</li>
+                                    <li><b>i</b> para itálico</li>
+                                </ul>
+                                <span class="baixo-esquerda"></span>
+                            </section>
+
+                            <section>
+                                <span class="topo-direita"></span>
+                                <h2>Blocos</h2>
+                                <ul>
+                                    <li>Header</li>
+                                    <li>Main</li>
+                                    <li>Footer</li>
+                                    <li>Section</li>
+                                    <li>Div</li>
+                                    <li>Ol</li>
+                                    <li>Ul</li>
+                                    <li>Article</li>
+                                    <li>Nav</li>
+                                    <li>Figcaption</li>
+                                    <li>Figure</li>
+                                </ul>
+                                <span class="baixo-esquerda"></span>
+                            </section>
+
+                            <section>
+                                <span class="topo-direita"></span>
+                                <h2>Links</h2>
+                                <ul>
+                                    <li>Para colocar um link em uma palavra usa o <b>"a href"</b></li>
+                                    <li>Para colocar um vídeo do Youtube no site se usa o <b>"iframe"</b> pegando o código no próprio Youtube</li>
+                                    <li>Links para imagens <b>"img src"</b></li>
+                                </ul>
+                                <span class="baixo-esquerda"></span>
+                            </section>
+
+                        </div>
+                        
+                        <!-- CONTEÚDO LADO DIREITA -->
+                        <div class="coluna coluna-direita">
+
+                            <section>
+                                <span class="topo-direita"></span>
+                                <h2>Comandos CSS de cor</h2>
+                                <ul>
+                                    <li>
+                                        <h3>Seletores</h3>
+                                        <strong>Para fazer algum comando precisa selecionar um bloco</strong>
+                                        <p>Chamando blocos como "html" ou "body" colocando "{}"</p>
+                                    </li>
+                                    <li>
+                                        <h3>Comandos</h3>
+                                        <strong>Pode selecionar cores do margin, border, padding, e do centro do texto.</strong>
+                                        <p>Comandos como color e background-color</p>
+                                    </li>
+                                    <li>
+                                        <h3>Texto</h3>
+                                        <strong>Existem comandos para demarcar fonte e tamanho do texto</strong>
+                                        <p>Comandos como "font-size" que serve para modificar o tamanho do texto e "font-family" que serve pra mudar a fonte do texto.</p>
+                                    </li>
+                                </ul>
+                                <span class="baixo-esquerda"></span>
+                            </section>
+
+                            <section>
+                                <span class="topo-direita"></span>
+                                <h2>Variáveis</h2>
+                                <ul>
+                                    <li>
+                                        <h3>Para criar uma variável precisa criar um novo seletor ":root"</h3>
+                                        <p>Para cria a variável no seletor precisa colocar --(dois traços) e colocar o nome da variável (caso precise de espaço entre as palavras use um -)</p>
+                                    </li>
+                                    <h2>Margem, borda, e padding</h2>
+                                    <li>
+                                        <h3>Para aumentar ou diminuir um espaço pode usar os comandos de margin, border e padding</h3>
+                                        <p>"padding: 0.5rem;" determina um espaço de pixels no padding, "margin-left(buttom, top, right): 10px;" determina um espaço de pixels na margem e pode criar uma borda(border) colorida ou animada "border: 7px solid (cor);"</p>
+                                    </li>
+                                    <h2>Transform</h2>
+                                    <li>
+                                        <h3>Podemos usar o transform para deformar ou mudar a proporção de uma imagem</h3>
+                                        <p>"transform: scale(0.7);" pode ser usado para modificar o tamanho da imagem confome muda a escala, "transform: skew(2deg);" deforma a imagem de acordo que muda o skew</p>
+                                    </li>
+                                </ul>
+                                <span class="baixo-esquerda"></span>
+                            </section>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </main>
+
+            <footer>
+                <div class="container">
+
+                    <section>
+                        <h3>Este site foi feito com o intuito de me lembrar dos códigos basicos que aprendi em HTML e CSS.</h3>
+                    </section>
+                    
+                    <nav>
+                        <ul class="redes-sociais">
+                            <li>
+                                <a href="https://www.instagram.com/vinicius_3dzaum/">
+                                    <img src="./assets/img/instagram-logo-3.png" alt="Instagram">
+                                    <p>Instagram</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCyMy2ZdcAaJJLi7qhkwQ0_Q">
+                                    <img src="./assets/img/1384060.png" alt="Youtube">
+                                    <p>Youtube</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+</html>
